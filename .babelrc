@@ -1,0 +1,12 @@
+// the rc at the end of the file name almost always means configuration
+// babel itself compiles all the code into a file that any browser can interpret
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "babel-plugin-transform-class-properties",
+    "babel-plugin-transform-object-rest-spread"
+  ]
+}
